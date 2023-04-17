@@ -37,6 +37,7 @@ html, body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
 .front-page {
     background-image: url('../../public/Cool_Shots/drone_turning_shot.jpg');
     background-position: center center;
