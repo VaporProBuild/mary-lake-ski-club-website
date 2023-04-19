@@ -7,17 +7,23 @@ Eventually I would like to publish this to the web and connect a backend for pay
 # Authour
 The sole creater of this project is Bradley Schaefer.
 
+# To run the base project
+
+`cd frontend`
+`npm install`
+`npm run dev`
+
+Then follow promp and the website will be at 
+  ➜  Local:   http://localhost:8080/
+  ➜  Network: http://10.0.0.139:8080/
+  
 # Vue 3 + TypeScript + Vite
 
-To setup a project that uses vite, vue, typescript
--> `npm create vite@latest`
-Name the project (in this case frontend). 
-Then select vue, typescript, and follow prompts to build and navigate to directory.
--> `cd fronted`
--> `npm install`
--> npm run dev
-This will run the project on a localhost.
-You can edit the html, App.vue, and HelloWorld.vue files to get started.
+This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+
+## Recommended IDE Setup
+
+- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
 ## Type Support For `.vue` Imports in TS
 
