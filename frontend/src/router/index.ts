@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 
-import App from '../App.vue'
+import HomePage from '../views/HomePage.vue'
 
 // const resources: string[] = [
 //   'get_all_database_records',
@@ -11,7 +11,7 @@ import App from '../App.vue'
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
-    component: App
+    component: HomePage
   },
   {
     path: '/CheckList',

@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import CheckList from './components/CheckList.vue'
+
 </script>
 
 <template>
-  <CheckList/>
+  <router-view/>
 </template>
 
 <style scoped>
