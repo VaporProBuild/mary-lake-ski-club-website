@@ -1,15 +1,5 @@
-:root {
-  font-family: "Montserrat", sans-serif;
-  box-sizing: border-box;
-  color-scheme: light dark;
-  margin: 0;
-  padding: 0;
-  background-color: #1a1a1a;
-}
-
 #app {
-  width: 100vw;
-  height: 100vh;
+  margin: 0;
 }
 
 @media (prefers-color-scheme: light) {
