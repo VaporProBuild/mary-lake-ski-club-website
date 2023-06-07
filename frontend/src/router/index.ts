@@ -14,8 +14,12 @@ const routes: Array<RouteRecordRaw> = [
     component: HomePage
   },
   {
-    path: '/CheckList',
-    component: () => import('../components/CheckList.vue')
+    path: '/Insta',
+    component: () => import('../views/InstagramReposts.vue')
+  },
+  {
+    path: '/FrontPage',
+    component: () => import('../views/FrontPage.vue')
   },
 ]
 
