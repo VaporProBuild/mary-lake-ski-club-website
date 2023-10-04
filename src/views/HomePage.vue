@@ -13,7 +13,7 @@
       </div>
     </content>
     <footer>
-      <h4 class="footer-tnpm ext">More questions? Shoot us a Dm on the @marylakeskiclub insta or send Em a text. </h4>
+      <h4 class="footer-text">More questions? Shoot us a Dm on the @marylakeskiclub insta or send Em a text. </h4>
     </footer>
   </div>
 </template>
