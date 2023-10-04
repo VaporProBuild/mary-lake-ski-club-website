@@ -21,6 +21,10 @@ const routes: Array<RouteRecordRaw> = [
     path: '/FrontPage',
     component: () => import('../views/FrontPage.vue')
   },
+  {
+    path: '/test',
+    component: () => import('../views/LogoAnimation.vue')
+  },
 ]
 
 const router = createRouter({
