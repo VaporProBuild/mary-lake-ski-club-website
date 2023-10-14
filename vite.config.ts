@@ -7,6 +7,7 @@ import VitePluginGhPages from 'vite-plugin-gh-pages'
 export default defineConfig({
   plugins: [
     vue(),
+    VitePluginGhPages({})
   ],
   resolve: {
     alias: {
