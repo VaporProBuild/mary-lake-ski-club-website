@@ -7,7 +7,8 @@
     "dev": "vite --host 0.0.0.0 --port 8080",
     "build": "vite build",
     "preview": "vite preview",
-    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix"
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix",
+    "deploy": "vite build && vite build --base './' && npx gh-pages -d dist"
   },
   "dependencies": {
     "eslint": "^8.38.0",
@@ -19,6 +20,7 @@
     "@vitejs/plugin-vue": "^4.1.0",
     "typescript": "^4.9.3",
     "vite": "^4.2.0",
+    "vite-plugin-gh-pages": "^0.4.1",
     "vue-tsc": "^1.2.0"
   }
 }
