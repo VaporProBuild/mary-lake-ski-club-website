@@ -1,15 +1,17 @@
-<script setup lang="ts">
-
-</script>
+<!-- HomePage.vue -->
 
 <template>
   <div id="homepage">
-    <div class="front-page">
-      <img class="front-logo" src="../../public/Logos/logo.png" alt="Logo">
+    <div class="image-header">
+        <img class="front-logo" src="/Logos/logo.png" alt="Logo">
     </div>
+    <!-- sticky Navigator -->
     <content>
-      <div>
-        <h3>We are Mary Lake Ski Club, a group of University age best friends from Muskoka who spend our summer nights rushing home from work to catch an evening sunset ski. The slalom ski team consists of Brad, Teagen, David, Janine & Emily, but we love throwing photos up of our best friends who prefer other water sports too ;) We started skiing together summer of 2020 when hanging out indoors was a challenge, and we quickly became best friends & avid waterskiers. This insta is a fun way for us to share our summer adventures & favourite boat memories. Photos are taken mostly by @davo71, but also @emily.mcdougs, & a few from everyone. Thanks for following along as we countdown the days till summer!! 🌅🪩🕺🏼</h3>
+      <div class="center-text-box">
+        <h3>Do you wanna be the best dressed on the Lake? 🌅🪩🕺🏼</h3>
+        <router-link to="/other-page">Click here to go to another page on the site
+
+        </router-link>
       </div>
     </content>
     <footer>
@@ -19,18 +21,18 @@
 </template>
 
 <style scoped>
-.front-page {
+.image-header {
   background-image: url('../../public/Cool_Shots/drone_turning_shot.jpg');
   background-position: center center;
   background-size: cover;
-  height: 700px;
+  height: 60vh;
   text-align: center;
 }
 
 .front-logo {
-  min-width: 200px;
-  max-width: 20vw;
-  padding-top: 170px;
+  min-height: 15vh;
+  max-height: 20vw;
+  padding-top: 10vh;
 }
 
 h2 {

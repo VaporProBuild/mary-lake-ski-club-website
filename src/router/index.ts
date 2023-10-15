@@ -16,7 +16,7 @@ const routes: Array<RouteRecordRaw> = [
   {
     path: '/CheckList',
     component: () => import('../components/CheckList.vue')
-  }
+  },
 ]
 
 const router = createRouter({

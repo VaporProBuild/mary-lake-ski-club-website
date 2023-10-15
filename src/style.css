@@ -1,7 +1,9 @@
 #app {
   margin: 0;
+  transition: all 4s ease;
 }
 
-@media (prefers-color-scheme: light) {
-
+.center-text-box {
+  display: flex;
+  text-align: center;
 }
