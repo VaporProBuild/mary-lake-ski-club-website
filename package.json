@@ -8,7 +8,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix",
-    "deploy": "vite build && vite build --base './' && npx gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "eslint": "^8.38.0",
@@ -18,6 +19,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.1.0",
+    "gh-pages": "^6.0.0",
     "typescript": "^4.9.3",
     "vite": "^4.2.0",
     "vite-plugin-gh-pages": "^0.4.1",
