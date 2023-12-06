@@ -1,21 +1,13 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 
-import HomePage from '../views/HomePage.vue'
-
-// const resources: string[] = [
-//   'get_all_database_records',
-// ]
-
-//TODO: Load component here.. i think?
-
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
-    component: HomePage
+    component: () => import('../views/HomePage.vue')
   },
   {
-    path: '/CheckList',
-    component: () => import('../components/CheckList.vue')
+    path: '/Apparel',
+    component: () => import('../views/ApparelPage.vue')
   },
 ]
 

@@ -6,21 +6,30 @@
       <img class="front-logo" src="/Logos/logo.png" alt="Logo">
     </div>
     <!-- sticky Navigator -->
-    <content>
-      <div class="center-text-box">
-        <h3>Do you wanna be the best dressed on the Lake?</h3>
-        <router-link class="shop-here" to="/Apparel">
-          Shop Here
-        </router-link>
-      </div>
-    </content>
-    <!-- footer -->
+    <div class="center-text-box">
+      <h3>Do you wanna be the best dressed on the Lake?</h3>
+      <router-link class="shop-here" to="/Apparel">
+        Shop Here
+      </router-link>
+    </div>
+    <FooterBar/>
   </div>
 </template>
 
+<script lang="ts">
+  import { defineComponent } from "vue"
+  import FooterBar from "../components/FooterBar.vue"
+
+  export default defineComponent({
+    components: {
+      FooterBar
+    }
+  })
+</script>
+
 <style scoped>
 .image-header {
-  background-image: url('../../public/Cool_Shots/drone_turning_shot.jpg');
+  background-image: url('/Cool_Shots/drone_turning_shot.jpg');
   background-position: center center;
   background-size: cover;
   height: 60vh;
